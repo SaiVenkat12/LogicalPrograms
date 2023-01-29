@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace LogicalPrograms
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
+            Fibonacci.FibonacciSeries();
             Console.ReadLine();
 
         }
