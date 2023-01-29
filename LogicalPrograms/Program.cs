@@ -11,9 +11,28 @@ namespace LogicalPrograms
         public static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Fibonacci.FibonacciSeries();
+            bool flag = true;
+            while (flag)
+            {
+                Console.WriteLine("1.Fibonacci Series \n2.PerfectNumbert \n22.Exit");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        Fibonacci.FibonacciSeries();
+                        break;
+                    case 2:
+                        PerfectNumber.Perfect();
+                        break;
+                    case 22:
+                        flag = false;
+                        break;
+                    default:
+                        Console.WriteLine("Choose the correct number ! ");
+                        break;
+                }
+            }
             Console.ReadLine();
-
         }
     }
 }
