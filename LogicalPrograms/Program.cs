@@ -14,7 +14,7 @@ namespace LogicalPrograms
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Fibonacci Series \n2.PerfectNumbert \n3.Prime Number \n22.Exit");
+                Console.WriteLine("1.Fibonacci Series \n2.PerfectNumbert \n3.Prime Number \n4.Reverse a number \n22.Exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -26,6 +26,9 @@ namespace LogicalPrograms
                         break;
                     case 3:
                         PrimeNumber.Prime();
+                        break;
+                    case 4:
+                        ReverseNumber.Reverse();
                         break;
                     case 22:
                         flag = false;
