@@ -14,7 +14,7 @@ namespace LogicalPrograms
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Fibonacci Series \n2.PerfectNumbert \n3.Prime Number \n4.Reverse a number \n5.Temperature Conversion \n22.Exit");
+                Console.WriteLine("1.Fibonacci Series \n2.PerfectNumbert \n3.Prime Number \n4.Reverse a number \n5.Temperature Conversion \n6.Monthly Payment \n22.Exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -32,6 +32,9 @@ namespace LogicalPrograms
                         break;
                     case 5:
                         TemperatureConversion.Conversion();
+                        break;
+                    case 6:
+                        MonthlyPayment.InterestPerMonth();
                         break;
                     case 22:
                         flag = false;
