@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CouponNumber.cs" />
+    <Compile Include="DayOfWeek.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="MonthlyPayment.cs" />
     <Compile Include="PerfectNumber.cs" />
