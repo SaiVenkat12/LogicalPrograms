@@ -14,7 +14,7 @@ namespace LogicalPrograms
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("1.Fibonacci Series \n2.PerfectNumbert \n3.Prime Number \n4.Reverse a number \n5.Temperature Conversion \n6.Monthly Payment \n7.Coupon Number Generator \n8.Day Of Week \n9.Stop Watch \n22.Exit");
+                Console.WriteLine("1.Fibonacci Series \n2.PerfectNumbert \n3.Prime Number \n4.Reverse a number \n5.Temperature Conversion \n6.Monthly Payment \n7.Coupon Number Generator \n8.Day Of Week \n9.Stop Watch \n10.VendingMachine Change \n22.Exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -44,6 +44,9 @@ namespace LogicalPrograms
                         break;
                     case 9:
                         StopWatch.StopWatchTimer();
+                        break;
+                    case 10:
+                        VendingMachine.Change();
                         break;
                     case 22:
                         flag = false;

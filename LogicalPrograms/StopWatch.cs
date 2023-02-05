@@ -20,7 +20,6 @@ namespace LogicalPrograms
             string b = Console.ReadLine();
             stopwatch.Stop();
             Console.WriteLine("Time Elapsed : {0}",stopwatch.Elapsed);
-            Console.ReadLine();
         }
     }
 }

@@ -34,7 +34,7 @@ namespace LogicalPrograms
             {
                 Console.WriteLine(i);
             }
-            Console.WriteLine("Count of Random Numbers needed is " + count);
+            Console.WriteLine("Total Random Numbers generated is " + count);
         }
     }
 }
