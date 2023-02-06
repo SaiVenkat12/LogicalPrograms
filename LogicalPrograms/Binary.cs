@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,7 @@ namespace LogicalPrograms
     {
         public static void ConvertBinary()
         {
-            int i,n;
+            int i, n;           
             int[] binary = new int[8];
             Console.WriteLine("Enter the Number to convert into Binary :");
             int b = Convert.ToInt32(Console.ReadLine());
